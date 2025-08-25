@@ -1,10 +1,11 @@
 
 import './App.css';
+import ParentComponent from './ParentComponent';
 
 function App() {
   return (
     <div className="App">
-     <button type="button" class="btn btn-primary">Primary</button>
+     <ParentComponent />
     </div>
   );
 }
